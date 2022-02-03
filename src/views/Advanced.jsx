@@ -32,8 +32,8 @@ export default function Advanced() {
     }, [])
 
     return (
-        <section style={{ marginLeft: 20 }}>
-            <h2>Advanced</h2>
+        <section>
+            <h2 style={{ textAlign: "center" }}>Advanced</h2>
             <Board data={data} />
         </section>
     )

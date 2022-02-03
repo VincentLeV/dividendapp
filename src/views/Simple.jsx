@@ -15,7 +15,7 @@ export default function Simple() {
 
     return (
         <section style={{ marginRight: 20 }}>
-            <h2>Simple</h2>
+            <h2 style={{ textAlign: "center" }}>Simple</h2>
             <Board data={data} />
         </section>
     )
